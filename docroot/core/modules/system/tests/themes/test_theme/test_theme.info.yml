@@ -11,7 +11,7 @@
 name: '<strong>Test theme</strong>'
 type: theme
 description: 'Theme for testing the theme system'
-version: VERSION
+# version: VERSION
 base theme: classy
 logo: images/logo2.svg
 libraries:
@@ -53,10 +53,9 @@ libraries-override:
       component:
         /core/themes/stable/css/core/vertical-tabs.css: public://my_css/vertical-tabs.css
   # Use a protocol-relative URI.
-  core/jquery.ui:
-    css:
-      component:
-        assets/vendor/jquery.ui/themes/base/core.css: //my-server/my_theme/css/jquery_ui.css
+  core/drupal.displace:
+    js:
+      misc/displace.js: //my-server/my_theme/js/overridden.js
   # Use an absolute URI.
   core/jquery.farbtastic:
     css:
@@ -67,3 +66,8 @@ regions:
   content: Content
   left: Left
   right: Right
+
+# Information added by Drupal.org packaging script on 2022-03-21
+version: '9.3.9'
+project: 'drupal'
+datestamp: 1647899432

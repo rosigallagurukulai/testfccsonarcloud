@@ -1,7 +1,7 @@
 name: Standard
 type: profile
 description: 'Install with commonly used features pre-configured.'
-version: VERSION
+# version: VERSION
 install:
   - node
   - history
@@ -16,7 +16,6 @@ install:
   - menu_link_content
   - datetime
   - block_content
-  - quickedit
   - editor
   - help
   - image
@@ -41,3 +40,8 @@ install:
 themes:
   - bartik
   - seven
+
+# Information added by Drupal.org packaging script on 2022-03-21
+version: '9.3.9'
+project: 'drupal'
+datestamp: 1647899432

@@ -102,7 +102,7 @@ class Comment extends ContentEntityBase implements CommentInterface {
           // by retrieving the maximum thread level.
           $max = $storage->getMaxThread($this);
           // Strip the "/" from the end of the thread.
-          $max = rtrim($max, '/');
+          $max = rtrim((string) $max, '/');
           // We need to get the value at the correct depth.
           $parts = explode('.', $max);
           $n = Number::alphadecimalToInt($parts[0]);
@@ -389,7 +389,7 @@ class Comment extends ContentEntityBase implements CommentInterface {
    * {@inheritdoc}
    */
   public function getSubject() {
-    return $this->get('subject')->value;
+    return $this->get('subject')->value ?? '';
   }
 
   /**
@@ -404,7 +404,8 @@ class Comment extends ContentEntityBase implements CommentInterface {
    * {@inheritdoc}
    */
   public function getAuthorName() {
-    if ($this->get('uid')->target_id) {
+    // If their is a valid user id and the user entity exists return the label.
+    if ($this->get('uid')->target_id && $this->get('uid')->entity) {
       return $this->get('uid')->entity->label();
     }
     return $this->get('name')->value ?: \Drupal::config('user.settings')->get('anonymous');
