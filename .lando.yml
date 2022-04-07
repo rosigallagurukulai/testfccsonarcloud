@@ -1,0 +1,31 @@
+name: sbd
+recipe: drupal9
+config:
+  webroot: docroot
+proxy:
+  solr:
+  - solr.lndo.site:8983
+services:
+  search:
+    type: solr:7
+    portforward: 8983
+    core: sbd_cwr
+    config:
+      dir: solr/conf
+  node:
+    type: node
+    build_as_root: 
+      - apt-get update
+      - apt-get install libnotify-bin -y
+    globals:
+      gulp-cli: latest
+      notify-send: latest
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
+  yarn:
+    service: node
