@@ -778,3 +778,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (file_exists('/var/www/site-php')) {
   require('/var/www/site-php/fccwebd9/fccwebd9-settings.inc');
 }
+
+$settings['config_sync_directory'] = '../config/fcc/default';
+
+ini_set('memory_limit', '512M');
