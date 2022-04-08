@@ -29,3 +29,5 @@ INSTALL & SETUP DRUPAL
 6. Update Shortcut UUID using command "lando drush config-set "shortcut.set.default" uuid cf35a180-c72a-426a-9a36-3e8dda2779b6"
 
 7. Update Site UUID using command "lando drush config-set "system.site" uuid f9364e4c-675d-4f00-b262-386aba647867"
+
+8. Execute "lando drush cim".
