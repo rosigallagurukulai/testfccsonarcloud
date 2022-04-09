@@ -26,8 +26,8 @@ INSTALL & SETUP DRUPAL
 
 5. Install SBD site using http://fcc.lndo.site:8080/core/install.php
 
-6. Update Shortcut UUID using command "lando drush config-set "shortcut.set.default" uuid cf35a180-c72a-426a-9a36-3e8dda2779b6"
+6. Update Shortcut UUID using command "lando drush config-set "shortcut.set.default" uuid bff6f04c-f555-4869-a2bf-0f99bdb409ad"
 
-7. Update Site UUID using command "lando drush config-set "system.site" uuid f9364e4c-675d-4f00-b262-386aba647867"
+7. Update Site UUID using command "lando drush config-set "system.site" uuid 29d55b59-6741-4427-9fda-ca63e7ed507f"
 
 8. Execute "lando drush cim".
