@@ -16,11 +16,12 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "composer/semver": "*",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "9.3.9",
         "drupal/core-vendor-hardening": "^9.3",
-        "drush/drush": "^10.6"
+        "drush/drush": "^11.0"
     },
     "conflict": {
         "drupal/drupal": "*"
