@@ -2,3 +2,20 @@ name: fcc
 recipe: drupal9
 config:
   webroot: docroot
+proxy:
+  appserver:
+    - fcc.lndo.site
+    - dominosugar.lndo.site
+services:
+  fcc:
+    type: mysql:5.7
+    creds:
+      user: fcc
+      password: fcc
+      database: fcc
+  dominosugar:
+    type: mysql:5.7
+    creds:
+      user: dominosugar
+      password: dominosugar
+      database: dominosugar
