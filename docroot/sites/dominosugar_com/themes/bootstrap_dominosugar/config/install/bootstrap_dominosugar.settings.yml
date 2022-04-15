@@ -1,0 +1,45 @@
+# Library.
+# ----------------------------
+bootstrap_dominosugar_library: 'production'
+# Layout.
+# ----------------------------
+bootstrap_dominosugar_sidebar_position: 'both'
+bootstrap_dominosugar_content_offset: 0
+bootstrap_dominosugar_sidebar_first_width: 4
+bootstrap_dominosugar_sidebar_first_offset: 0
+bootstrap_dominosugar_sidebar_second_width: 3
+bootstrap_dominosugar_sidebar_second_offset: 0
+
+# Container.
+# ----------------------------
+bootstrap_dominosugar_fluid_container: 0
+
+# Buttons.
+# ----------------------------
+bootstrap_dominosugar_button: 1
+bootstrap_dominosugar_button_size: ''
+bootstrap_dominosugar_button_outline: 0
+
+# Navbar.
+# ----------------------------
+bootstrap_dominosugar_navbar_toggle: 'navbar-toggleable-lg'
+bootstrap_dominosugar_navbar_container: ''
+bootstrap_dominosugar_navbar_top_position: ''
+bootstrap_dominosugar_navbar_top_color: ''
+bootstrap_dominosugar_navbar_top_background: ''
+bootstrap_dominosugar_navbar_position: ''
+bootstrap_dominosugar_navbar_color: ''
+bootstrap_dominosugar_navbar_background: ''
+
+# Messages.
+# ----------------------------
+bootstrap_dominosugar_messages_widget: 'alerts'
+
+# Colors.
+# ----------------------------
+bootstrap_dominosugar_system_messages: 'messages_white'
+
+# Tables.
+# ----------------------------
+bootstrap_dominosugar_table_hover: 1
+bootstrap_dominosugar_table_style: 'table-striped'
