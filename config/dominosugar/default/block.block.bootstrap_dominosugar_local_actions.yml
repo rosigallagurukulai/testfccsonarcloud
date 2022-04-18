@@ -1,0 +1,20 @@
+uuid: 51ef47ad-1716-444d-b853-0a03cdd3840f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_dominosugar
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: bootstrap_dominosugar_local_actions
+theme: bootstrap_dominosugar
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

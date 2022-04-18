@@ -1,8 +1,0 @@
-uuid: 39cebb61-2ad8-49a4-b7d4-ad867c978137
-langcode: en
-status: true
-dependencies: {  }
-name: 'Recipe Type'
-vid: recipe_type
-description: 'Recipe Type'
-weight: 0

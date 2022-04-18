@@ -1,8 +1,0 @@
-uuid: da51e747-ad9c-4be8-a482-70927fef74bd
-langcode: en
-status: true
-dependencies: {  }
-name: Chef
-vid: chef
-description: Chef
-weight: 0

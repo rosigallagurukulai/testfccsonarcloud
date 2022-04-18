@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9a7d61eee5986d29ea360619bac99674970c04c2',
+        'reference' => 'e93839c864e5106d820786a7b6588cf9e6663a11',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -661,7 +661,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9a7d61eee5986d29ea360619bac99674970c04c2',
+            'reference' => 'e93839c864e5106d820786a7b6588cf9e6663a11',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -840,6 +840,15 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/shield' => array(
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../docroot/modules/contrib/shield',
+            'aliases' => array(),
+            'reference' => '8.x-1.6',
+            'dev_requirement' => false,
         ),
         'drupal/shortcut' => array(
             'dev_requirement' => false,

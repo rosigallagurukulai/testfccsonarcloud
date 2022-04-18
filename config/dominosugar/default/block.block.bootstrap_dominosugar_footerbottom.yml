@@ -1,0 +1,25 @@
+uuid: 93cb52a9-4f39-426f-8de4-adae19930cad
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-bottom
+  module:
+    - system
+  theme:
+    - bootstrap_dominosugar
+id: bootstrap_dominosugar_footerbottom
+theme: bootstrap_dominosugar
+region: footer_fifth
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer-bottom'
+settings:
+  id: 'system_menu_block:footer-bottom'
+  label: 'Footer Bottom'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

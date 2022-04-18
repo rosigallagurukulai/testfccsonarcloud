@@ -1,8 +1,0 @@
-uuid: 474787bb-53b0-4acf-8244-1e86a56b3521
-langcode: en
-status: true
-dependencies: {  }
-name: 'Product Types'
-vid: product_types
-description: 'Product Types'
-weight: 0

@@ -1,8 +1,0 @@
-uuid: a795ac6c-1506-416f-a8e4-4277405c6004
-langcode: en
-status: true
-dependencies: {  }
-name: 'Cook Time'
-vid: cook_time
-description: 'Cook Time'
-weight: 0

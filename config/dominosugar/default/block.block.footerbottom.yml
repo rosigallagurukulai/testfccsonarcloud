@@ -1,0 +1,25 @@
+uuid: 0983b812-e538-485a-aa8a-1ea0790b6c83
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-bottom
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: footerbottom
+theme: bootstrap_barrio
+region: footer_fifth
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer-bottom'
+settings:
+  id: 'system_menu_block:footer-bottom'
+  label: 'Footer Bottom'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: d5ab05e9-b1c8-44b3-b622-d4a11a0a5a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-bottom
+  module:
+    - system
+  theme:
+    - bootstrap_global
+id: bootstrap_global_footerbottom
+theme: bootstrap_global
+region: footer_fifth
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer-bottom'
+settings:
+  id: 'system_menu_block:footer-bottom'
+  label: 'Footer Bottom'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

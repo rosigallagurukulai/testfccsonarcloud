@@ -1,0 +1,22 @@
+uuid: f23c3aa2-05c3-4eb8-88be-6067b75503e8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_dominosugar
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: bootstrap_dominosugar_local_tasks
+theme: bootstrap_dominosugar
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

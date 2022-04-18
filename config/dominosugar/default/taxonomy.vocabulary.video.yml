@@ -1,8 +1,0 @@
-uuid: 13df5123-11a6-4314-9d92-60be941abbc0
-langcode: en
-status: true
-dependencies: {  }
-name: Video
-vid: video
-description: Video
-weight: 0
