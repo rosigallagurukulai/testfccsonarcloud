@@ -60,5 +60,5 @@
     'dev.dominosugar.com' => 'dominosugar_com',
     'stg.dominosugar.com' => 'dominosugar_com',
     'dominosugar.lndo.site' => 'dominosugar_com',
-  'cd7ba427-8643-4f25-84ea-36b318e2eebb.web.ahdev.cloud' => 'dominosugar_com',
+    'fccwebd9dev.prod.acquia-sites.com' => 'dominosugar_com',
   );
