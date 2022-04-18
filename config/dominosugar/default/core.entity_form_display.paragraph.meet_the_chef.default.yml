@@ -1,0 +1,47 @@
+uuid: 63c56596-ec6d-41ee-acb2-f4fc396648e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.meet_the_chef.field_chef_description
+    - field.field.paragraph.meet_the_chef.field_chef_images
+    - field.field.paragraph.meet_the_chef.field_chef_name
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.meet_the_chef
+  module:
+    - image
+    - text
+id: paragraph.meet_the_chef.default
+targetEntityType: paragraph
+bundle: meet_the_chef
+mode: default
+content:
+  field_chef_description:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_chef_images:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_chef_name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

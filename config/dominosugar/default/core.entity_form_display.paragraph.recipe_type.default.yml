@@ -1,0 +1,25 @@
+uuid: f2438b21-6c17-4317-9a7a-55073c4ad902
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.recipe_type.field_recipe_type
+    - paragraphs.paragraphs_type.recipe_type
+id: paragraph.recipe_type.default
+targetEntityType: paragraph
+bundle: recipe_type
+mode: default
+content:
+  field_recipe_type:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

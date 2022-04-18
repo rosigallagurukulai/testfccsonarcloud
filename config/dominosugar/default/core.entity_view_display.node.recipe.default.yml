@@ -1,0 +1,127 @@
+uuid: 85f36bb7-2946-4a03-bfd6-b7a0b0c24008
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.field_additional_tip
+    - field.field.node.recipe.field_chef1
+    - field.field.node.recipe.field_course
+    - field.field.node.recipe.field_ingredient_serving_size
+    - field.field.node.recipe.field_ingredients
+    - field.field.node.recipe.field_instructions
+    - field.field.node.recipe.field_occasions
+    - field.field.node.recipe.field_prep_time_and_cook_time
+    - field.field.node.recipe.field_product_type
+    - field.field.node.recipe.field_recipe_banner_image
+    - field.field.node.recipe.field_recipe_type
+    - node.type.recipe
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  field_additional_tip:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_chef1:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_course:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ingredient_serving_size:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_ingredients:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_instructions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_occasions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_prep_time_and_cook_time:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_product_type:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_recipe_banner_image:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_recipe_type:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

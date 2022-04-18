@@ -1,0 +1,31 @@
+uuid: 8ce57fcd-d445-46e0-aa68-88ca4593e807
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ingredients.field_ingredients_description
+    - field.field.paragraph.ingredients.field_ingredients_sub_header
+    - paragraphs.paragraphs_type.ingredients
+  module:
+    - text
+id: paragraph.ingredients.default
+targetEntityType: paragraph
+bundle: ingredients
+mode: default
+content:
+  field_ingredients_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ingredients_sub_header:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

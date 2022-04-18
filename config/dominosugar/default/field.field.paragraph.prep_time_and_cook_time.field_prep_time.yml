@@ -1,0 +1,29 @@
+uuid: 2fb56215-d7b9-4d24-a8be-bcabda52cc40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prep_time
+    - paragraphs.paragraphs_type.prep_time_and_cook_time
+    - taxonomy.vocabulary.prep_time
+id: paragraph.prep_time_and_cook_time.field_prep_time
+field_name: field_prep_time
+entity_type: paragraph
+bundle: prep_time_and_cook_time
+label: 'Prep Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      prep_time: prep_time
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

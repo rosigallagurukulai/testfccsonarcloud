@@ -1,0 +1,20 @@
+uuid: 5db39c70-f5d5-4c50-abed-55c8675cd7c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_prep_time
+field_name: field_prep_time
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

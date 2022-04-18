@@ -1,0 +1,19 @@
+uuid: 0e0ab594-7908-4916-920f-878d6af352fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_preparation_description
+field_name: field_preparation_description
+entity_type: paragraph
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

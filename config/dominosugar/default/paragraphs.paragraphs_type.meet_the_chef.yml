@@ -1,0 +1,10 @@
+uuid: 6f346261-db34-4352-8985-702a5382aadd
+langcode: en
+status: true
+dependencies: {  }
+id: meet_the_chef
+label: 'MEET THE CHEF'
+icon_uuid: null
+icon_default: null
+description: 'MEET THE CHEF'
+behavior_plugins: {  }

@@ -1,0 +1,55 @@
+uuid: 9a3c0fcb-aeed-474e-ab2d-eaf43317b200
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chef
+    - node.type.chef
+    - paragraphs.paragraphs_type.meet_the_chef
+  module:
+    - entity_reference_revisions
+id: node.chef.field_chef
+field_name: field_chef
+entity_type: node
+bundle: chef
+label: Chef
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      meet_the_chef: meet_the_chef
+    negate: 0
+    target_bundles_drag_drop:
+      banner_slider_image:
+        weight: 10
+        enabled: false
+      course:
+        weight: 11
+        enabled: false
+      ingredients:
+        weight: 12
+        enabled: false
+      instructions:
+        weight: 13
+        enabled: false
+      meet_the_chef:
+        weight: 14
+        enabled: true
+      occasion:
+        weight: 15
+        enabled: false
+      prep_time_and_cook_time:
+        weight: 16
+        enabled: false
+      product_type:
+        weight: 17
+        enabled: false
+      recipe_type:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

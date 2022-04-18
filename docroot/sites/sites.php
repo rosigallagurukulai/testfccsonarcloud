@@ -60,5 +60,9 @@
     'dev.dominosugar.com' => 'dominosugar_com',
     'stg.dominosugar.com' => 'dominosugar_com',
     'dominosugar.lndo.site' => 'dominosugar_com',
+<<<<<<< HEAD
     '08d15bf8-ca8f-49af-8cd7-1611cc52a99e.web.ahdev.cloud' => 'dominosugar_com'
+=======
+  'fb4e923a-2e73-45a4-91d1-f171533baa68.web.ahdev.cloud' => 'dominosugar_com',
+>>>>>>> domino_recipe_contenttypes
   );

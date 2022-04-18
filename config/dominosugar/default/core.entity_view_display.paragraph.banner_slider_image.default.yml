@@ -1,0 +1,24 @@
+uuid: 26785691-4dce-48d1-926d-79264fe8e41a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_slider_image.field_recipe_banner_image
+    - paragraphs.paragraphs_type.banner_slider_image
+  module:
+    - image
+id: paragraph.banner_slider_image.default
+targetEntityType: paragraph
+bundle: banner_slider_image
+mode: default
+content:
+  field_recipe_banner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
