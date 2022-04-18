@@ -1,0 +1,8 @@
+uuid: d23050fd-dd21-4d23-8901-151dd5bd7255
+langcode: en
+status: true
+dependencies: {  }
+name: 'Content Type'
+vid: content_type
+description: 'Content Type'
+weight: 0

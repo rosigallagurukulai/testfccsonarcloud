@@ -1,0 +1,52 @@
+uuid: ce2c6e74-b3af-49f1-acff-5e646523dd00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prep_time_and_cook_time
+    - node.type.recipe
+    - paragraphs.paragraphs_type.prep_time_and_cook_time
+  module:
+    - entity_reference_revisions
+id: node.recipe.field_prep_time_and_cook_time
+field_name: field_prep_time_and_cook_time
+entity_type: node
+bundle: recipe
+label: 'PREP TIME AND COOK TIME'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      prep_time_and_cook_time: prep_time_and_cook_time
+    negate: 0
+    target_bundles_drag_drop:
+      banner_slider_image:
+        weight: 9
+        enabled: false
+      course:
+        weight: 10
+        enabled: false
+      ingredients:
+        weight: 11
+        enabled: false
+      instructions:
+        weight: 12
+        enabled: false
+      occasion:
+        weight: 13
+        enabled: false
+      prep_time_and_cook_time:
+        weight: 14
+        enabled: true
+      product_type:
+        weight: 15
+        enabled: false
+      recipe_type:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

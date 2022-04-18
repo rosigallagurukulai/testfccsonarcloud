@@ -1,0 +1,21 @@
+uuid: 9d4c85d1-27d1-4400-a734-3921fdb960e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_cook_time_unit
+field_name: field_cook_time_unit
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

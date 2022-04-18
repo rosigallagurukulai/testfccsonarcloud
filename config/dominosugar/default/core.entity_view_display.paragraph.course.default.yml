@@ -1,0 +1,21 @@
+uuid: 1706f335-4dc7-4799-87e2-4909aa8f0733
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.course.field_course
+    - paragraphs.paragraphs_type.course
+id: paragraph.course.default
+targetEntityType: paragraph
+bundle: course
+mode: default
+content:
+  field_course:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

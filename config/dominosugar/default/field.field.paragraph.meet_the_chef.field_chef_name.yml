@@ -1,0 +1,19 @@
+uuid: e980ac8e-df25-4271-a20a-347d3adaf686
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chef_name
+    - paragraphs.paragraphs_type.meet_the_chef
+id: paragraph.meet_the_chef.field_chef_name
+field_name: field_chef_name
+entity_type: paragraph
+bundle: meet_the_chef
+label: 'Chef Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,52 @@
+uuid: 21e8c4de-d46a-48e8-9150-828a3ea47a67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_occasions
+    - node.type.recipe
+    - paragraphs.paragraphs_type.occasion
+  module:
+    - entity_reference_revisions
+id: node.recipe.field_occasions
+field_name: field_occasions
+entity_type: node
+bundle: recipe
+label: Occasions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      occasion: occasion
+    negate: 0
+    target_bundles_drag_drop:
+      banner_slider_image:
+        weight: 9
+        enabled: false
+      course:
+        weight: 10
+        enabled: false
+      ingredients:
+        weight: 11
+        enabled: false
+      instructions:
+        weight: 12
+        enabled: false
+      occasion:
+        weight: 13
+        enabled: true
+      prep_time_and_cook_time:
+        weight: 14
+        enabled: false
+      product_type:
+        weight: 15
+        enabled: false
+      recipe_type:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

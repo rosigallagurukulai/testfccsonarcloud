@@ -1,0 +1,36 @@
+uuid: e5d08894-394b-4fd1-bd94-da240e8d2b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.instructions.field_instruction_sub_header
+    - field.field.paragraph.instructions.field_instructions_description
+    - paragraphs.paragraphs_type.instructions
+  module:
+    - text
+id: paragraph.instructions.default
+targetEntityType: paragraph
+bundle: instructions
+mode: default
+content:
+  field_instruction_sub_header:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_instructions_description:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

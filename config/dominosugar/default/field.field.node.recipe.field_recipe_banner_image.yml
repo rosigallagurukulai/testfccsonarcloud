@@ -1,0 +1,52 @@
+uuid: ca0800af-c094-4769-ad7a-9022a6a89938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recipe_banner_image
+    - node.type.recipe
+    - paragraphs.paragraphs_type.banner_slider_image
+  module:
+    - entity_reference_revisions
+id: node.recipe.field_recipe_banner_image
+field_name: field_recipe_banner_image
+entity_type: node
+bundle: recipe
+label: 'Recipe Banner Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      banner_slider_image: banner_slider_image
+    negate: 0
+    target_bundles_drag_drop:
+      banner_slider_image:
+        weight: 9
+        enabled: true
+      course:
+        weight: 10
+        enabled: false
+      ingredients:
+        weight: 11
+        enabled: false
+      instructions:
+        weight: 12
+        enabled: false
+      occasion:
+        weight: 13
+        enabled: false
+      prep_time_and_cook_time:
+        weight: 14
+        enabled: false
+      product_type:
+        weight: 15
+        enabled: false
+      recipe_type:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

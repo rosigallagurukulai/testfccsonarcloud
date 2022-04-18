@@ -1,0 +1,22 @@
+uuid: 1421c142-fe92-4c0a-8120-7c911219db9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.chef.field_chef
+    - node.type.chef
+  module:
+    - user
+id: node.chef.teaser
+targetEntityType: node
+bundle: chef
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_chef: true
