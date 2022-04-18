@@ -1,0 +1,5 @@
+name: Global
+description: Custom theme for ASR
+type: theme
+base theme: false
+core_version_requirement: ^8 || ^9

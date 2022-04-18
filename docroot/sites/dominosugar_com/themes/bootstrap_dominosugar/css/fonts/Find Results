@@ -1,0 +1,474 @@
+Searching 2111 files for "icon-facebook" (case sensitive)
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/organisms/global/footer.json:
+   53:                         "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-about-detail.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-contact-form.json:
+  381:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-event-list.json:
+  518:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-free-sample-form.json:
+  381:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-general-site-search.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-home.json:
+  366:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-product-category.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-product-detail-page.json:
+  369:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-recipe-category.json:
+  281:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-recipe-detail-page.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-recipe-results.json:
+  642:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-sitemap.json:
+  337:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-social-feed.json:
+  366:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-store-locator.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-tip-article-detail-page.json:
+  413:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/b2c-tips-article-detail-video.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/01-B2C/data.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-about-detail.json:
+  373:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-contact-form.json:
+  419:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-detail-about.json:
+  371:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-event-list.json:
+  517:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-free-sample-form.json:
+  393:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-gate.json:
+  304:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-general-site-search.json:
+  529:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-home.json:
+  401:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-product-category.json:
+  411:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-product-detail-page.json:
+  481:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-product-family-detail.json:
+  401:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-product-list.json:
+  363:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-product-results.json:
+  761:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-product-subcategory.json:
+  351:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-recipe-detail-page.json:
+  539:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/b2b-recipe-results.json:
+  544:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/02-B2B/data.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-about-detail.json:
+  404:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-brand-detail-detail.json:
+  420:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-brand-landing.json:
+  381:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-contact-form.json:
+  439:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-general-site-search.json:
+  525:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-home.json:
+  370:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-responsibility-detail.json:
+  333:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/corp-timeline.json:
+  277:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/03-Corp/data.json:
+  270:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/data.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-about-detail.json:
+  531:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-contact-form.json:
+  296:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-free-sample-form.json:
+  390:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-general-site-search.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-home.json:
+  147:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-product-category.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-product-detail-page.json:
+  272:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-recipe-category.json:
+  283:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-recipe-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-recipe-results.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-sitemap.json:
+   56:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-store-locator.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-tips-article-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/04-Domino/domino-tips-article-detail-video.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-about-detail.json:
+  275:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-contact-form.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-general-site-search.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-home.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-product-category.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-product-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-recipe-category.json:
+  269:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-recipe-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-recipe-results.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-sitemap.json:
+  338:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-store-locator.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-tips-article-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/CH-tips-article-detail-video.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-CH/data.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/data.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-about-detail.json:
+  276:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-contact-form.json:
+  385:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-general-site-search.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-home.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-product-category.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-product-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-recipe-category.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-recipe-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-recipe-results.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-sitemap.json:
+  331:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-tips-article-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/05-Sidul/sidul-tips-article-detail-video.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/data.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-about-detail.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-contact-form.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-corp-timeline.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-free-sample-form.json:
+  282:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-general-site-search.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-home.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-product-category.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-product-detail-page.json:
+  300:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-recipe-category.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-recipe-detail-page.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-recipe-results.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-sitemap.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-tips-article-detail-page.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/06-Lyles-Golden-Syrup/lyles-tips-article-detail-video.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/components/event-list.json:
+  507:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/data.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-about-detail.json:
+  448:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-contact-form.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-event-list.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-free-sample-form.json:
+  394:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-general-site-search.json:
+  434:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-home.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-product-category.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-product-detail-page.json:
+  287:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-recipe-category.json:
+  291:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-recipe-detail-page.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-recipe-results.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-sitemap.json:
+  271:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-store-locator.json:
+  356:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-tips-article-detail-page.json:
+  684:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/07-Red-Path/red-path-tips-article-detail-video.json:
+  322:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/components/footer.json:
+   54:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/data.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-about-detail.json:
+  273:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-contact-form.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-corp-timeline.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-free-sample-form.json:
+  282:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-general-site-search.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-home.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-product-category.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-product-detail-page.json:
+  320:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-recipe-category.json:
+  419:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-recipe-detail-page.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-recipe-results.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-sitemap.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-store-locator.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-tips-article-detail-page.json:
+  298:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/08-Tate-Lyle/tate-lyle-tips-article-detail-video.json:
+  317:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/components/footer.json:
+   36:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/data.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-about-detail.json:
+  258:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-contact-form.json:
+  367:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-general-site-search.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-home.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-product-category.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-product-detail-page.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-recipe-category.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-recipe-detail-page.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-recipe-results.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-sitemap.json:
+  323:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-tips-article-detail-page.json:
+  253:                             "value": "icon-facebook"
+
+/Library/WebServer/Documents/asr-prototype/source/_patterns/pages/09-Florida-Crystals/florida-crystal-tips-article-detail-video.json:
+  253:                             "value": "icon-facebook"
+
+157 matches across 157 files
