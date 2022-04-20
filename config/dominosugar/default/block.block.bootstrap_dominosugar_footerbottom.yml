@@ -11,7 +11,7 @@ dependencies:
 id: bootstrap_dominosugar_footerbottom
 theme: bootstrap_dominosugar
 region: footer_fifth
-weight: -6
+weight: -4
 provider: null
 plugin: 'system_menu_block:footer-bottom'
 settings:
