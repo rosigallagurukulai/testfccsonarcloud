@@ -9,7 +9,7 @@ _core:
 id: bootstrap_dominosugar_local_actions
 theme: bootstrap_dominosugar
 region: content
-weight: -20
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:
