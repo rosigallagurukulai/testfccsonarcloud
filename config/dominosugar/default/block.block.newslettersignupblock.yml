@@ -1,0 +1,25 @@
+uuid: 7cc66d25-d1d1-4fba-bd2e-62e35a96a286
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:880cc474-9a26-4101-a227-fb5a8fb49b31'
+  module:
+    - block_content
+  theme:
+    - bootstrap_dominosugar
+id: newslettersignupblock
+theme: bootstrap_dominosugar
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:880cc474-9a26-4101-a227-fb5a8fb49b31'
+settings:
+  id: 'block_content:880cc474-9a26-4101-a227-fb5a8fb49b31'
+  label: 'Newsletter Signup block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

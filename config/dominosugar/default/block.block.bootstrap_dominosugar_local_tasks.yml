@@ -9,7 +9,7 @@ _core:
 id: bootstrap_dominosugar_local_tasks
 theme: bootstrap_dominosugar
 region: content
-weight: -40
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
