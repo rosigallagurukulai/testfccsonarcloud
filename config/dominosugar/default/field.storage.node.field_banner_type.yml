@@ -1,0 +1,30 @@
+uuid: 3b31f8a0-2a26-4b8f-9aea-9ab7f77ce419
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_banner_type
+field_name: field_banner_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: top
+      label: Top
+    -
+      value: middle
+      label: Middle
+    -
+      value: bottom
+      label: Bottom
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

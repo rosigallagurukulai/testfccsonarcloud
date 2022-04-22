@@ -1,0 +1,22 @@
+uuid: a553ee79-cd17-49c4-b9b4-9c34db6552b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.baking_tips
+id: node.baking_tips.promote
+field_name: promote
+entity_type: node
+bundle: baking_tips
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

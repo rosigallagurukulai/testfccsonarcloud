@@ -11,7 +11,7 @@ _core:
 id: bootstrap_dominosugar_content
 theme: bootstrap_dominosugar
 region: content
-weight: -2
+weight: 0
 provider: null
 plugin: system_main_block
 settings:

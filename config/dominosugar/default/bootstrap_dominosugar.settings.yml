@@ -10,8 +10,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://Domino®_NewLogo-noTagline_0.png'
-  use_default: false
+  use_default: true
 bootstrap_dominosugar_library: production
 bootstrap_dominosugar_fluid_container: 0
 bootstrap_dominosugar_sidebar_position: both

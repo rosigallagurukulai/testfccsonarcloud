@@ -1,0 +1,23 @@
+uuid: 6a397f3b-f46a-4326-8d6f-9437e6b01a3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.baking_tips
+  module:
+    - text
+id: node.baking_tips.body
+field_name: body
+entity_type: node
+bundle: baking_tips
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

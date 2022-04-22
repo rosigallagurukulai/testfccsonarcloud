@@ -2,6 +2,8 @@ uuid: 8e56d53f-2c86-4bc2-aba5-fa9206ce7738
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - bootstrap_dominosugar
 _core:
@@ -9,7 +11,7 @@ _core:
 id: bootstrap_dominosugar_page_title
 theme: bootstrap_dominosugar
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,8 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

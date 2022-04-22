@@ -1,0 +1,24 @@
+uuid: 740f6439-998d-4a1e-bc32-bcc21f4285a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - views
+  theme:
+    - bootstrap_dominosugar
+id: views_block__banner_block_3
+theme: bootstrap_dominosugar
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:banner-block_3'
+settings:
+  id: 'views_block:banner-block_3'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
