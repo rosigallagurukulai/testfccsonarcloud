@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3da1ea575cf92a279a3e4ab3eda526dd1be13a7c',
+        'reference' => '7069003da16fd32d6d15ea289e94f151b3c9d52e',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -571,7 +571,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3da1ea575cf92a279a3e4ab3eda526dd1be13a7c',
+            'reference' => '7069003da16fd32d6d15ea289e94f151b3c9d52e',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -795,6 +795,15 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/token_views_filter' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/token_views_filter',
+            'aliases' => array(),
+            'reference' => '8.x-1.5',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,

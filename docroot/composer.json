@@ -23,7 +23,8 @@
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/paragraphs": "^1.13",
-        "drupal/slick": "^2.6"
+        "drupal/slick": "^2.6",
+        "drupal/token_views_filter": "^1.5"
     },
     "conflict": {
         "drupal/drupal": "*"
