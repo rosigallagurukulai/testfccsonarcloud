@@ -5,7 +5,11 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
+<<<<<<< HEAD
         'reference' => 'b4d9af040fb163b990829807376195f1e28fb0b5',
+=======
+        'reference' => '7069003da16fd32d6d15ea289e94f151b3c9d52e',
+>>>>>>> ashok_banner_block
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -589,7 +593,11 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
+<<<<<<< HEAD
             'reference' => 'b4d9af040fb163b990829807376195f1e28fb0b5',
+=======
+            'reference' => '7069003da16fd32d6d15ea289e94f151b3c9d52e',
+>>>>>>> ashok_banner_block
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -831,6 +839,15 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/token_views_filter' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/token_views_filter',
+            'aliases' => array(),
+            'reference' => '8.x-1.5',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,

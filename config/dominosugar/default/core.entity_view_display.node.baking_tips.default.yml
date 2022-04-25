@@ -1,0 +1,28 @@
+uuid: 8a1d112b-ad92-405f-bad1-1ec768edbd5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.baking_tips.body
+    - node.type.baking_tips
+  module:
+    - text
+    - user
+id: node.baking_tips.default
+targetEntityType: node
+bundle: baking_tips
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1611,6 +1611,7 @@
             "install-path": "../../modules/contrib/slick"
         },
         {
+<<<<<<< HEAD
             "name": "drupal/social_media_links",
             "version": "2.8.0",
             "version_normalized": "2.8.0.0",
@@ -1624,6 +1625,21 @@
                 "url": "https://ftp.drupal.org/files/projects/social_media_links-8.x-2.8.zip",
                 "reference": "8.x-2.8",
                 "shasum": "7702fd4465c47767f6be0444015fa9bcdbfb1aa6"
+=======
+            "name": "drupal/token_views_filter",
+            "version": "1.5.0",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/token_views_filter.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token_views_filter-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "1a151906690464650ffef3fe8c9a0f4fb5c6733b"
+>>>>>>> ashok_banner_block
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -1631,8 +1647,13 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
+<<<<<<< HEAD
                     "version": "8.x-2.8",
                     "datestamp": "1615222684",
+=======
+                    "version": "8.x-1.5",
+                    "datestamp": "1604429711",
+>>>>>>> ashok_banner_block
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1642,6 +1663,7 @@
             "installation-source": "dist",
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
+<<<<<<< HEAD
                 "GPL-2.0-or-later"
             ],
             "authors": [
@@ -1663,6 +1685,22 @@
                 "issues": "https://www.drupal.org/project/issues/social_media_links"
             },
             "install-path": "../../modules/contrib/social_media_links"
+=======
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "validoll",
+                    "homepage": "https://www.drupal.org/user/144206"
+                }
+            ],
+            "description": "This is module allow to use tokens in views filter criteria values.",
+            "homepage": "https://www.drupal.org/project/token_views_filter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/token_views_filter"
+            },
+            "install-path": "../../modules/contrib/token_views_filter"
+>>>>>>> ashok_banner_block
         },
         {
             "name": "egulias/email-validator",
