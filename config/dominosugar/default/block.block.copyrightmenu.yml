@@ -1,0 +1,25 @@
+uuid: f176bf4f-c744-4e2a-8278-eeec57ba21ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.copyright-menu
+  module:
+    - system
+  theme:
+    - bootstrap_dominosugar
+id: copyrightmenu
+theme: bootstrap_dominosugar
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'system_menu_block:copyright-menu'
+settings:
+  id: 'system_menu_block:copyright-menu'
+  label: 'Copyright menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
