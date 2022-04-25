@@ -1,3 +1,4 @@
+
 {#
 /**
  * @file
@@ -73,13 +74,39 @@
 
 <div class="page page-b2b-home page-b2c-home {{url}}">
 
-  <header id="page-top" class="header-wrapper">
+  <header id="page-top" class="main-header">
+    <div class="container-lg">
     {% if page.header %}
     {{ page.header }}
     {% endif %}
-    {% if page.primary_menu %}
-    {{ page.primary_menu }}
-    {% endif %}
+    <nav{{ navbar_attributes }}>
+      {% if page.primary_menu %}
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="{{ navbar_collapse_class }}" id="CollapsingNavbar">
+              {% if navbar_offcanvas %}
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+              {% endif %}
+      {{ page.primary_menu }}
+      {% endif %}
+      {% if sidebar_collapse %}
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
+          {% endif %}
+            {% if container_navbar %}
+        </div>
+      {% endif %}
+      <form class="seach_bar_top">
+        <div class="d-flex search_bar">
+          <input type="text" class="search-hover" name="" placeholder="search"
+            aria-label="Search" />
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </form>
+    </nav>
+
+    </div>
   </header>
 
   <main>
@@ -93,9 +120,43 @@
     {{ page.sidebar_second }}
     {% endif %}
   </main>
-<footer id="page-top" class="side-footer">
-  {% if page.footer_fifth %}
-  {{ page.footer_fifth }}
-  {% endif %}
+<footer id="page-top" class="footer-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-12 col-lg-2 mb-4">
+          <div>
+            <img src="{{ url('<front>')|render ~ file_url('/sites/dominosugar_com/files/2022-04/asr-logo-reversed.png') }}" />
+          </div>
+      </div>
+      <div class="col-lg-10 col-md-12 col-sm-12 mb-4 pt-3">
+          <div class="row footer-links">
+            {% if page.footer_second %}
+            {{ page.footer_second }}
+            {% endif %}
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="float-lg-end">
+            {% if page.footer_fourth %}
+            {{ page.footer_fourth }}
+            {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 mb-5">
+      <div class="col-12">
+          <div class="h_border"></div>
+            {% if page.footer_third %}
+            {{ page.footer_third }}
+            {% endif %}
+            {% if page.footer_fifth %}
+            {{ page.footer_fifth }}
+            {% endif %}
+      </div>
+    </div>
+  </div>
 </footer>
 </div>
+

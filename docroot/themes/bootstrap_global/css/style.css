@@ -1,0 +1,13 @@
+/*toggle button*/
+.navbar-toggler {position: absolute; display: none; height: 25px; }
+.navbar-toggler .navbar-toggler-icon { background-image: none;}
+.navbar-toggler span, .navbar-toggler span:before, .navbar-toggler span:after{display: block;width: 35px;height: 4px;background-color: currentColor;margin-bottom: 2px;border-radius: 15px;transition: transform 200ms, background-color 200ms, top 200ms; z-index: 1;}
+.navbar-toggler span:after{top: 10px;}
+.navbar-toggler span:before, .nav-toggle span:after{content: '';position: absolute;}
+.navbar-toggler span{top: 0px;position:relative;}
+.navbar-toggler span:before{top:20px;}
+.navbar-toggler span:before, .navbar-toggler span:after{content: '';position: absolute;}
+ .navbar-toggler:focus {box-shadow:none!important;}
+.navbar-toggler[aria-expanded="true"] span{background-color:transparent;}
+.navbar-toggler[aria-expanded="true"] span:before{transform:rotate(-45deg);top:10px;}
+.navbar-toggler[aria-expanded="true"] span:after{transform:rotate(45deg);top:10px;}

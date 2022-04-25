@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3da1ea575cf92a279a3e4ab3eda526dd1be13a7c',
+        'reference' => 'b4d9af040fb163b990829807376195f1e28fb0b5',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -130,6 +130,15 @@
                 0 => '9.3.9',
             ),
         ),
+        'drupal/block_class' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/block_class',
+            'aliases' => array(),
+            'reference' => '8.x-1.3',
+            'dev_requirement' => false,
+        ),
         'drupal/block_content' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -228,6 +237,15 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/copyright_footer' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/copyright_footer',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
         ),
         'drupal/core' => array(
             'pretty_version' => '9.3.9',
@@ -571,7 +589,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3da1ea575cf92a279a3e4ab3eda526dd1be13a7c',
+            'reference' => 'b4d9af040fb163b990829807376195f1e28fb0b5',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -597,6 +615,15 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/menu_link_attributes' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/menu_link_attributes',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
         ),
         'drupal/menu_link_content' => array(
             'dev_requirement' => false,
@@ -746,6 +773,15 @@
             'install_path' => __DIR__ . '/../../modules/contrib/slick',
             'aliases' => array(),
             'reference' => '8.x-2.6',
+            'dev_requirement' => false,
+        ),
+        'drupal/social_media_links' => array(
+            'pretty_version' => '2.8.0',
+            'version' => '2.8.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/social_media_links',
+            'aliases' => array(),
+            'reference' => '8.x-2.8',
             'dev_requirement' => false,
         ),
         'drupal/standard' => array(
