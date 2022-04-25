@@ -76,9 +76,12 @@
 
   <header id="page-top" class="main-header">
     <div class="container-lg">
-    {% if page.header %}
-    {{ page.header }}
-    {% endif %}
+    <div class="outer-logo">
+      {% if page.header %}
+      {{ page.header }}
+      {% endif %}
+      <img class="logo_bg" src="{{ url('<front>')|render ~ file_url('/sites/dominosugar_com/files/2022-04/dominologo_bg.png') }}" />
+    </div>
     <nav{{ navbar_attributes }}>
       {% if page.primary_menu %}
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

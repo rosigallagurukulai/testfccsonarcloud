@@ -7,8 +7,8 @@ body {font-family: Helvetica ;}
 
 /*Header start*/
 .main-header{ background:#e3eaf8; max-width:100%; min-height:104px;}
-.navbar-brand img{ margin: 21px 12px 0; max-width:180px; position:absolute; z-index:111; color: transparent;}
-
+.outer-logo { position: absolute;  min-height:177px; width:205px; }
+.navbar-brand img{ margin: 21px 12px 0; max-width:180px; position:absolute; z-index:111; }
 #navbar-main {background-color: transparent!important; padding: 0; justify-content: end;}
 .navbar-collapse {justify-content:flex-start!important}
 
@@ -61,7 +61,7 @@ body {font-family: Helvetica ;}
     .search_bar{width:100%;margin:0 auto;background:#fff;margin-top:0;top:0;position:absolute;}
     .search_bar .fa{color:#fff;background:#eadd21;padding:11px;top:0;right:0;font-size:22px;}
     .search_bar:hover .search-hover{border:none;width:100%;}
-    .navbar-brand{ background: none; position: absolute; color: transparent;}
+    .outer-logo .logo_bg{ display: none; }
     .fluid_resp .nav-toggle{margin-top:27px;}
     .main-header .container-lg{max-width:100%;}
     .fluid_resp{padding:0;}
@@ -69,11 +69,11 @@ body {font-family: Helvetica ;}
     .navbar-light li {border-bottom: 1px solid #132f59;}
     .navbar-light .navbar-nav .nav-link{ padding: 11px; display: block; font-size: 16px; font-family: 'RoughCut Regular Rough'; color: #fff;}
     .navbar-light .navbar-nav .nav-link:hover {color: #aaa;}
-    .navbar-toggler{right: 20px; top: 22px; cursor: pointer;color: #04559f; padding: 0; display: block;}
+    .navbar-toggler{right: 20px; top: 20px; cursor: pointer;color: #04559f; padding: 0; display: block;}
 }
 
 @media (max-width:992px){
-    .navbar-brand img { margin-top: 10px;}
+    .outer-logo img { margin-top: 10px;}
 }
 
 @media (max-width: 840px) {
@@ -99,7 +99,7 @@ body {font-family: Helvetica ;}
     .collapse:not(.show) { display: block; display: flex; flex-basis: auto; }
     .navbar-light{flex-wrap:nowrap;justify-content:flex-start; padding: 0; width: 100%;}
     .navbar-light .navbar-nav{ flex-direction:row; margin-left:220px; margin-top: 50px;}
-    .navbar-brand { min-height:177px; width:205px; float:left; position:absolute; z-index:11; background: url("/sites/dominosugar_com/files/2022-04/dominologo_bg.png") no-repeat center bottom; object-fit: cover; padding: 0; margin: 0; font-size: 0;}
+    .logo_bg { min-height:177px; width:205px; float:left; position:absolute; left:0; z-index:11; padding: 0; margin: 0; font-size: 0;}
     .navbar-light .nav-item .nav-link{padding:11px; display: block; font-size: 16px;font-family: 'RoughCut Regular Rough'; color:#04559f;}
     .navbar-light .nav-item .nav-link:hover{color:#132f59;}
     .navbar-light .nav-item li a{padding:10px;text-transform:uppercase;color:#04559f;text-decoration:none;}
