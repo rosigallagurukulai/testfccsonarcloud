@@ -1,0 +1,8 @@
+uuid: 79f45241-2cc2-43ff-811c-a7817eed7488
+langcode: en
+status: true
+dependencies: {  }
+id: copyright-menu
+label: 'Copyright menu'
+description: 'Copyright menu'
+locked: false

@@ -38,12 +38,13 @@ body {font-family: Helvetica ;}
 .nav-footer a:hover{ color: rgba(255, 255, 255, 0.6); }
 
 .copyright { margin: 10px 0; color: white; font-size: 12px; padding: 4px 0 0 0; text-align: left; clear: none; width: 100%; }
+.copyright:hover, .copyright:focus { color: white; }
 
 .social-links-footer { list-style: none; margin: 0; padding: 0; display: flex; }
 .social-links-footer .nav { flex-wrap: initial; width: 100%; }
 .social-links-footer li{ margin: 0 8px 0 0;}
 .social-links-footer a{ border: 1px solid white; font-size: 0px; height: 30px; width: 30px; float: left; border-radius: 50%; text-decoration: none; color: white; padding: 6px 0 0 0px; text-align: center; transition: 1s; }
-.social-links-footer a:hover{ color: rgba(255, 255, 255, 0.6); }
+.social-links-footer a:hover, .social-links-footer a:focus{ color: rgba(255, 255, 255, 0.6); }
 .social-links-footer a::after {font-family: "Global Icons"; font-size: 14px;}
 .social-links-footer a.facebook::after { content: "\f122";  }
 .social-links-footer a.pinterest::after { content: "\f131"; }
