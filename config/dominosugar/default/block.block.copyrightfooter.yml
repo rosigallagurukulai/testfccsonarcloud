@@ -1,0 +1,30 @@
+uuid: fcdde70b-2828-4197-82e7-e6a9962f1059
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - copyright_footer
+  theme:
+    - bootstrap_dominosugar
+third_party_settings:
+  block_class:
+    classes: copyright
+id: copyrightfooter
+theme: bootstrap_dominosugar
+region: footer_fifth
+weight: 0
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: 'DOMINO FOODS INC. ALL RIGHTS RESERVED. DOMINO SUGAR IS PART OF ASR GROUP'
+  organization_url: ''
+  year_origin: null
+  year_to_date: null
+  version: ''
+  version_url: ''
+visibility: {  }

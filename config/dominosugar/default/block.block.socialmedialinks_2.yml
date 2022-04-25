@@ -1,9 +1,9 @@
-uuid: 93cb52a9-4f39-426f-8de4-adae19930cad
+uuid: dcfa81d8-9a00-48ec-a2af-b1490c5eefcb
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.footer-bottom
+    - system.menu.social-media-links
   module:
     - block_class
     - system
@@ -11,16 +11,16 @@ dependencies:
     - bootstrap_dominosugar
 third_party_settings:
   block_class:
-    classes: nav-footer
-id: bootstrap_dominosugar_footerbottom
+    classes: social-links-footer
+id: socialmedialinks_2
 theme: bootstrap_dominosugar
-region: footer_third
-weight: -7
+region: footer_fourth
+weight: 0
 provider: null
-plugin: 'system_menu_block:footer-bottom'
+plugin: 'system_menu_block:social-media-links'
 settings:
-  id: 'system_menu_block:footer-bottom'
-  label: 'Footer Bottom'
+  id: 'system_menu_block:social-media-links'
+  label: 'Social Media Links'
   label_display: '0'
   provider: system
   level: 1

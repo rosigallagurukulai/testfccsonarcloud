@@ -2,10 +2,6 @@ uuid: 7cc66d25-d1d1-4fba-bd2e-62e35a96a286
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:880cc474-9a26-4101-a227-fb5a8fb49b31'
-  module:
-    - block_content
   theme:
     - bootstrap_dominosugar
 id: newslettersignupblock

@@ -5,9 +5,13 @@ dependencies:
   config:
     - system.menu.main
   module:
+    - block_class
     - system
   theme:
     - bootstrap_dominosugar
+third_party_settings:
+  block_class:
+    classes: 'navbar navbar-light'
 _core:
   default_config_hash: _G1IfGESk7WqvVCi7B3VJxhSY0YICgv1OmuVPJqO8bE
 id: bootstrap_dominosugar_main_menu

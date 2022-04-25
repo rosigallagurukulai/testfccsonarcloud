@@ -6,6 +6,7 @@ module:
   automated_cron: 0
   big_pipe: 0
   block: 0
+  block_class: 0
   block_content: 0
   breakpoint: 0
   captcha: 0
@@ -15,6 +16,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  copyright_footer: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -29,6 +31,9 @@ module:
   history: 0
   image: 0
   link: 0
+  media: 0
+  media_library: 0
+  menu_link_attributes: 0
   menu_link_content: 0
   menu_ui: 0
   metatag: 0

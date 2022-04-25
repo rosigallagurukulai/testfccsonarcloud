@@ -5,15 +5,19 @@ dependencies:
   config:
     - system.menu.footer
   module:
+    - block_class
     - system
   theme:
     - bootstrap_dominosugar
+third_party_settings:
+  block_class:
+    classes: footer-nav-list
 _core:
   default_config_hash: pnCK21YFjH7iB4XDeokSq3N3XSr6qX8BsqMs9nmip6E
 id: bootstrap_dominosugar_footer
 theme: bootstrap_dominosugar
-region: footer_fifth
-weight: -5
+region: footer_second
+weight: -7
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
@@ -22,6 +26,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 0
-  expand_all_items: false
+  depth: 3
+  expand_all_items: true
 visibility: {  }
