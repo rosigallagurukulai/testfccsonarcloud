@@ -19,3 +19,12 @@ services:
       user: dominosugar
       password: dominosugar
       database: dominosugar
+      pma:
+      type: phpmyadmin:5.1
+      hosts:
+        - database
+# for phpcs
+  build:
+      - "mkdir -p /app/coder && cd /app/coder && composer global require drupal/coder:8.3.13"
+      - "/app/coder/vendor/bin/phpcs --config-set installed_paths /app/coder/vendor/drupal/coder/coder_sniffer"
+
