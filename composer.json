@@ -40,6 +40,9 @@
     
     "scripts": {
         "lint": "phplint --no-cache docroot/themes",
+        "phpcs": "phpcs --standard=PSR12 docroot/themes",
+        "phpcbf": "phpcbf --standard=PSR12 docroot/themes"
+
 
     },
 
