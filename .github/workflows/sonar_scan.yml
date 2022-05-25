@@ -1,4 +1,4 @@
-name: Build
+name: Sonar_scanning
 on:
   workflow_run:
     workflows: ["PHP phpcs"]
