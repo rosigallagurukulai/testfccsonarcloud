@@ -50,5 +50,5 @@ jobs:
     #   run: composer run-script test
     - name: Run phpcs
       run: composer phpcs
-    - name: Run phpcbf
-      run: composer phpcbf
+
+ 
