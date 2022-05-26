@@ -26,8 +26,8 @@ jobs:
         with:
          projectBaseDir: docroot
          args: >
-          -Dsonar.organization=my-organization
-          -Dsonar.projectKey=my-projectkey
+          -Dsonar.organization=rosigallagurukulai_testfccsonarcloud
+          -Dsonar.projectKey=rosigallagurukulai
           -Dsonar.sources=docroot/
           -Dsonar.test.exclusions=core/**
           -Dsonar.test.exclusions=vendor/**
