@@ -16,7 +16,6 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         with:  
-         projectBaseDir: /github/workspace/docroot
          args: >
           -Dsonar.organization=rosigallagurukulai
           -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
