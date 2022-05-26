@@ -21,18 +21,16 @@ jobs:
           uses: sonarsource/sonarcloud-github-action@master
         with:
              projectBaseDir: docroot
-             
       - name: Analyze with SonarCloud
-             
         uses: sonarsource/sonarcloud-github-action@master
         with:
-             projectBaseDir: docroot
-             
-    args: >
-            -Dsonar.organization=my-organization
-            -Dsonar.projectKey=my-projectkey
-            -Dsonar.sources=docroot/
-            -Dsonar.test.exclusions=core/**
-            -Dsonar.test.exclusions=vendor/**
-            -Dsonar.tests=/
-            -Dsonar.verbose=true
+         projectBaseDir: docroot
+         args: >
+          -Dsonar.organization=my-organization
+          -Dsonar.projectKey=my-projectkey
+          -Dsonar.sources=docroot/
+          -Dsonar.test.exclusions=core/**
+          -Dsonar.test.exclusions=vendor/**
+          -Dsonar.tests=
+          -Dsonar.verbose=true
+
