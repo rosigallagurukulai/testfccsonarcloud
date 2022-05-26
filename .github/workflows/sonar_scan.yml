@@ -26,11 +26,11 @@ jobs:
         with:
          projectBaseDir: docroot
          args: >
-          -Dsonar.organization=rosigallagurukulai_testfccsonarcloud
-          -Dsonar.projectKey=rosigallagurukulai
-          -Dsonar.sources=docroot/
-          -Dsonar.test.exclusions=core/**
-          -Dsonar.test.exclusions=vendor/**
-          -Dsonar.tests=
-          -Dsonar.verbose=true
+          sonar.organization=rosigallagurukulai_testfccsonarcloud
+          sonar.projectKey=rosigallagurukulai
+          sonar.sources=docroot/
+          sonar.test.exclusions=core/**
+          sonar.test.exclusions=vendor/**
+          sonar.tests=
+          sonar.verbose=true
 
