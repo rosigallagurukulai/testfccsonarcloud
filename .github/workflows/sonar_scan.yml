@@ -17,20 +17,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          
-          uses: sonarsource/sonarcloud-github-action@master
-        with:
-             projectBaseDir: docroot
-      - name: Analyze with SonarCloud
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-         projectBaseDir: docroot
-         args: >
-          sonar.organization=rosigallagurukulai_testfccsonarcloud
-          sonar.projectKey=rosigallagurukulai
-          sonar.sources=docroot/
-          sonar.test.exclusions=core/**
-          sonar.test.exclusions=vendor/**
-          sonar.tests=
-          sonar.verbose=true
 
