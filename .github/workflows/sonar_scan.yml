@@ -18,6 +18,9 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
          projectBaseDir: docroot
+         args: >
+             -Dsonar.organization=rosigallagurukulai
+             -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
  
     env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
