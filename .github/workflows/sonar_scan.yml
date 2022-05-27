@@ -21,8 +21,8 @@ jobs:
          args: >
              -Dsonar.organization=rosigallagurukulai
              -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
-             -Dsonar.test.exclusions=docroot/**/core/**/*
              -Dsonar.test.inclusions=docroot/**/sites/**/*
+             -Dsonar.test.exclusions=docroot/**/sites/**/*
  
     env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
