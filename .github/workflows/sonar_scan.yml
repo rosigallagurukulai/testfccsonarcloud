@@ -21,7 +21,7 @@ jobs:
          args: >
              -Dsonar.organization=rosigallagurukulai
              -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
-             -Dsonar.test.exclusions=core/**
+             -Dsonar.test.exclusions=docroot/**/core/**/*
              -Dsonar.test.inclusions=docroot/**/sites/**/*
  
     env:
