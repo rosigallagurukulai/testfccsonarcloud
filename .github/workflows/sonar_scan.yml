@@ -17,11 +17,11 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:  
          args: >
-          -Dsonar.organization=rosigallagurukulai
-          -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
-          -Dsonar.sources=docroot/
-          -Dsonar.test.exclusions=docroot/**/core/**/*
-          -Dsonar.test.inclusions=docroot/
+          sonar.organization=rosigallagurukulai
+          sonar.projectKey=rosigallagurukulai_testfccsonarcloud
+          sonar.sources=docroot/
+          sonar.test.exclusions=docroot/**/core/**/*
+          sonar.test.inclusions=docroot/
         
     env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
