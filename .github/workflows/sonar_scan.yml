@@ -12,17 +12,13 @@ jobs:
       - name: Clonnig repository
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+         fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+     
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
-        with:  
-         args: >
-          sonar.organization=rosigallagurukulai
-          sonar.projectKey=rosigallagurukulai_testfccsonarcloud
-          sonar.sources=docroot/
-          sonar.test.exclusions=docroot/**/core/**/*
-          sonar.test.inclusions=docroot/
-        
+        with:
+         projectBaseDir: docroot
+ 
     env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
