@@ -1,5 +1,5 @@
-name: fcc
-recipe: drupal9
+name: fccwebd9
+recipe: acquia
 config:
   webroot: docroot
   acli_version: latest
