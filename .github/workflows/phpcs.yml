@@ -57,9 +57,9 @@ jobs:
       run: composer lint
       
     - name: Run phpcs
-      run: composer phpcs
+      run: ./vendor/bin/phpcs --standard=PSR12 docroot/themes
       
     - name: Run phpcbf
-      run: composer phpcbf
+      run: ./vendor/bin/phpcbf -w --standard=PSR12 docroot/themes
 
  
