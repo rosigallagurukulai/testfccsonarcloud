@@ -54,5 +54,8 @@ jobs:
       
     - name: Run phpcs
       run: composer phpcs
+      
+    - name: Run phpcbf
+      run: composer phpcbf
 
  
