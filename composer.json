@@ -38,15 +38,16 @@
     
     },
     
-     "require-dev": {
-          "squizlabs/php_codesniffer": "3.*",
-		"phpunit/phpunit": "9.*"
-	},
-    
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "overtrue/phplint": "^2.0",
+                "phpunit/phpunit": "9.*"
+        },
+
     "scripts": {
         "lint": "phplint --no-cache docroot/themes",
-        "phpcs": "phpcs --standard=PSR12 docroot/themes"
-       
+        "phpcs": "phpcs --standard=Drupal docroot/themes",
+       "phpcbf": "phpcbf --standard=Drupal docroot/themes/"
 
     },
     "conflict": {
