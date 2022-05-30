@@ -2,6 +2,13 @@ name: fcc
 recipe: drupal9
 config:
   webroot: docroot
+  acli_version: latest
+  ah_application_uuid: 46d7c5ce-b9cb-488a-91cd-8af0b79bacbf
+  php: '7.4'
+  cache: true
+  type: memchached:1.6
+  composer_version: '2'
+  inbox: true
 proxy:
   appserver:
     - fcc.lndo.site
