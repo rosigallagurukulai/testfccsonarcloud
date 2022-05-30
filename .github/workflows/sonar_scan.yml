@@ -1,8 +1,10 @@
 name: Sonar_scannig
  
 on:
-  - pull_request
-  - push
+  workflow_run:
+    workflows: ["PHP phpcs"]
+    types:
+      - completed
   
 jobs:
   tests:
