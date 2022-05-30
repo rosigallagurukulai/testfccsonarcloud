@@ -45,9 +45,9 @@
         },
 
     "scripts": {
-        "lint": "phplint --no-cache docroot/themes",
-        "phpcs": "phpcs --standard=PSR12 load.environment.php",
-       "phpcbf": "phpcbf --standard=PSR12 load.environment.php"
+        "lint": "phplint --no-cache docroot/sites",
+        "phpcs": "phpcs --standard=PSR12 docroot/sites",
+       "phpcbf": "phpcbf --standard=PSR12 docroot/sites"
 
     },
     "conflict": {
