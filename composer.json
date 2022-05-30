@@ -33,12 +33,13 @@
         "drupal/recaptcha": "^3.0",
         "drupal/shield": "^1.6",
         "drupal/slick_views": "^2.6",
-        "drush/drush": "^11.0",
-        "squizlabs/php_codesniffer": "3.*"
+        "drush/drush": "^11.0"
+       
     
     },
     
      "require-dev": {
+          "squizlabs/php_codesniffer": "3.*"
 		"phpunit/phpunit": "9.*"
 	},
     
