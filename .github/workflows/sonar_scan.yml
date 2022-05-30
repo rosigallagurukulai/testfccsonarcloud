@@ -1,4 +1,4 @@
-name: Build
+name: Sonarcloud_scannig
 on:
   workflow_run:
     workflows: ["PHP phpcs"]
@@ -22,9 +22,7 @@ jobs:
            -Dsonar.sources=docroot
            -Dsonar.test.inclusions=docroot/sites/**
            -Dsonar.test.inclusions=docroot/themes/**
-           -Dsonar.test.inclusions=docroot/modules/**
-           
-           
+           -Dsonar.tests=docroot/sites/**
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
