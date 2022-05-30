@@ -46,8 +46,8 @@
 
     "scripts": {
         "lint": "phplint --no-cache docroot/themes",
-        "phpcs": "phpcs --standard=Drupal load.environment.php",
-       "phpcbf": "phpcbf --standard=Drupal load.environment.php"
+        "phpcs": "phpcs --standard=PSR12 load.environment.php",
+       "phpcbf": "phpcbf --standard=PSR12 load.environment.php"
 
     },
     "conflict": {
