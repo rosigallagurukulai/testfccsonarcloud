@@ -45,7 +45,7 @@
         },
 
     "scripts": {
-        "lint": "phplint --no-cache docroot/themes/",
+        "lint": "phplint --no-cache docroot/themes/"
  #       "phpcs": "phpcs --standard=PSR12 docroot/themes/",
  #      "phpcbf": "phpcbf -w --standard=PSR12 docroot/themes/"
 
