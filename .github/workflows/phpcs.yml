@@ -52,8 +52,6 @@ jobs:
       run: |
         ./vendor/bin/phpcs --config-set ignore_errors_on_exit 1
         ./vendor/bin/phpcs --config-set ignore_warnings_on_exit 1
-        ./vendor/bin/phcbf -- config-set ignore_errors_on_exit 1
-        ./vendor/bin/phcbf -- config-set ignore_warnings_on_exit 1
         
     - name: Run lint
       run: composer lint
