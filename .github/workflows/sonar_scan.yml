@@ -1,4 +1,4 @@
-name: CI
+name: Sonar_scannig
  
 on:
   - pull_request
