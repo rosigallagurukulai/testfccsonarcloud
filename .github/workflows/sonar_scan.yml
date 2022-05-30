@@ -1,10 +1,10 @@
 name: Build
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, synchronize, reopened]
+  workflow_run:
+    workflows: ["PHP phpcs"]
+    types:
+      - completed
+     
 jobs:
   sonarcloud:
     name: SonarCloud
@@ -20,7 +20,11 @@ jobs:
            -Dsonar.organization=rosigallagurukulai
            -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
            -Dsonar.sources=docroot
-           -Dsonar.inclusions=docroot/sites/**
+           -Dsonar.test.inclusions=docroot/sites/**
+           -Dsonar.test.inclusions=docroot/themes/**
+           -Dsonar.test.inclusions=docroot/modules/**
+           
+           
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
