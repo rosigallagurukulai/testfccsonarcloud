@@ -16,7 +16,7 @@ INSTALL LANDO
 INSTALL & SETUP DRUPAL
 ----------------------
 
-1. Clone the git repo to your local from Acquia GIT Repo at: fccweb@svn-21939.prod.hosting.acquia.com:fccweb.git
+1. Clone the git repo to your local from Acquia GIT Repo at: "fccweb@svn-21939.prod.hosting.acquia.com:fccweb.git"
 
 2. Run the `lando start` command to launch the container. Not that the first time you run this command, it will take some time to complete, as it is installing the container and all dependencies for the first time (i.e., Apache, PHP, MySQL, etc).
 

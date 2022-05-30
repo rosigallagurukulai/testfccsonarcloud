@@ -249,7 +249,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '5eGhz0QlyskEfSK68nxiJRliA7rkhBag7x7L_p-plbrEeRTHVc-B-tFpAif8rturgRYdv5ryow';
+$settings['hash_salt'] = '5eNnhBYW3J8SaR1j7AVKIWT7uGZmx3HZ4ZT06105Yl9RWmOXLAZDYVyn36lLxNgQLIRbcPbl-g';
 
 /**
  * Deployment identifier.
@@ -770,9 +770,19 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-if (file_exists('/var/www/site-php')) {
-  require '/var/www/site-php/fccwebd9/dominosugar-settings.inc';
-}
+#if (file_exists('/var/www/site-php')) {
+# require '/var/www/site-php/fccwebd9/dominosugar-settings.inc';
+#}
 
 $settings['config_sync_directory'] = '../config/dominosugar/default';
 
+$databases['default']['default'] = array (
+  'database' => 'dominosugar',
+  'username' => 'dominosugar',
+  'password' => 'dominosugar',
+  'prefix' => '',
+  'host' => 'dominosugar',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
