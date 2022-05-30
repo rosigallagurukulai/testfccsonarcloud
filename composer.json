@@ -45,9 +45,9 @@
         },
 
     "scripts": {
-        "lint": "phplint --no-cache docroot/sites/dominosugar_com",
-        "phpcs": "phpcs --standard=PSR12 docroot/sites/dominosugar_com",
-       "phpcbf": "phpcbf --standard=PSR12 docroot/sites/dominosugar_com"
+        "lint": "phplint --no-cache docroot/sites/themes",
+        "phpcs": "phpcs --standard=PSR12 docroot/sites/themes",
+       "phpcbf": "phpcbf --standard=PSR12 docroot/themes"
 
     },
     "conflict": {
