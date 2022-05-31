@@ -21,6 +21,7 @@ jobs:
            -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
            -Dsonar.sources=docroot
            -Dsonar.inclusions=docroot/sites/**
+           -Dsonar.inclusions=docroot/themes/**
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
