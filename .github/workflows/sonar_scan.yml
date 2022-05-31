@@ -22,7 +22,7 @@ jobs:
            -Dsonar.sources=docroot
            -Dsonar.test.inclusions=docroot/sites/**
            -Dsonar.test.inclusions=docroot/themes/**
-           -Dsonar.verbose=true
+           -Dsonar.exclusions=docroot/core/**
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
