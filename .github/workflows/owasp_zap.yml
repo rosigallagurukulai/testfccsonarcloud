@@ -24,4 +24,4 @@ jobs:
           format: openapi
           target: 'http:dev.dominosugar.com'
           rules_file_name: '.zap/rules.tsv'
-          cmd_options: '-a'
+          cmd_options: '-u'
