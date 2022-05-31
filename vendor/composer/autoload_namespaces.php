@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'WebDriver' => array($vendorDir . '/instaclick/php-webdriver/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Stack' => array($vendorDir . '/stack/builder/src'),
     'Console' => array($vendorDir . '/pear/console_getopt'),

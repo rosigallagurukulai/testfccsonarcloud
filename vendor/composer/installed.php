@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '61bfbba9e5ada18d4442850bb7238c00d21e1c50',
+        'reference' => '4572dd625edeacd8c6b6efd9a29f38eece64f841',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -18,6 +18,24 @@
             'aliases' => array(),
             'reference' => 'b9c31def6a83f84b4d4a40d35996d375755f0e08',
             'dev_requirement' => false,
+        ),
+        'behat/mink' => array(
+            'pretty_version' => 'v1.10.0',
+            'version' => '1.10.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../behat/mink',
+            'aliases' => array(),
+            'reference' => '19e58905632e7cfdc5b2bafb9b950a3521af32c5',
+            'dev_requirement' => true,
+        ),
+        'behat/mink-selenium2-driver' => array(
+            'pretty_version' => 'v1.6.0',
+            'version' => '1.6.0.0',
+            'type' => 'mink-driver',
+            'install_path' => __DIR__ . '/../behat/mink-selenium2-driver',
+            'aliases' => array(),
+            'reference' => 'e5f8421654930da725499fb92983e6948c6f973e',
+            'dev_requirement' => true,
         ),
         'chi-teck/drupal-code-generator' => array(
             'pretty_version' => '2.5.3',
@@ -296,12 +314,12 @@
             ),
         ),
         'drupal/blazy' => array(
-            'pretty_version' => '2.12.0',
-            'version' => '2.12.0.0',
+            'pretty_version' => '2.13.0',
+            'version' => '2.13.0.0',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../docroot/modules/contrib/blazy',
             'aliases' => array(),
-            'reference' => '8.x-2.12',
+            'reference' => '8.x-2.13',
             'dev_requirement' => false,
         ),
         'drupal/block' => array(
@@ -796,7 +814,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '61bfbba9e5ada18d4442850bb7238c00d21e1c50',
+            'reference' => '4572dd625edeacd8c6b6efd9a29f38eece64f841',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1228,6 +1246,15 @@
             'reference' => '8f06e92b95405216b237521cc64c804dd44c4a81',
             'dev_requirement' => false,
         ),
+        'instaclick/php-webdriver' => array(
+            'pretty_version' => '1.4.14',
+            'version' => '1.4.14.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../instaclick/php-webdriver',
+            'aliases' => array(),
+            'reference' => '200b8df772b74d604bebf25ef42ad6f8ee6380a9',
+            'dev_requirement' => true,
+        ),
         'laminas/laminas-diactoros' => array(
             'pretty_version' => '2.8.0',
             'version' => '2.8.0.0',
@@ -1471,6 +1498,15 @@
             'reference' => 'bbcd7380b0ebf3961ee21409db7b38bc31d69a13',
             'dev_requirement' => true,
         ),
+        'phpspec/prophecy-phpunit' => array(
+            'pretty_version' => 'v2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpspec/prophecy-phpunit',
+            'aliases' => array(),
+            'reference' => '2d7a9df55f257d2cba9b1d0c0963a54960657177',
+            'dev_requirement' => true,
+        ),
         'phpstan/phpdoc-parser' => array(
             'pretty_version' => '1.5.1',
             'version' => '1.5.1.0',
@@ -1601,8 +1637,8 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -1878,6 +1914,15 @@
             'reference' => '329b3a75cc6b16d435ba1b1a41df54a53382a3f0',
             'dev_requirement' => false,
         ),
+        'symfony/css-selector' => array(
+            'pretty_version' => 'v6.1.0',
+            'version' => '6.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/css-selector',
+            'aliases' => array(),
+            'reference' => '05c40f02f621609404b8820ff8bc39acb46e19cf',
+            'dev_requirement' => true,
+        ),
         'symfony/debug' => array(
             'pretty_version' => 'v4.4.31',
             'version' => '4.4.31.0',
@@ -1991,6 +2036,15 @@
             'aliases' => array(),
             'reference' => 'd4365000217b67c01acff407573906ff91bcfb34',
             'dev_requirement' => false,
+        ),
+        'symfony/phpunit-bridge' => array(
+            'pretty_version' => 'v5.4.8',
+            'version' => '5.4.8.0',
+            'type' => 'symfony-bridge',
+            'install_path' => __DIR__ . '/../symfony/phpunit-bridge',
+            'aliases' => array(),
+            'reference' => 'cec05218b4fd847b87dce5b3560b288096c36950',
+            'dev_requirement' => true,
         ),
         'symfony/polyfill-ctype' => array(
             'pretty_version' => 'v1.23.0',

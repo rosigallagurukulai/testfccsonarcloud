@@ -40,10 +40,11 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/../..' . '/docroot/core/includes/bootstrap.inc',
         '6db5533840cb1ae1bc049452845aa88e' => __DIR__ . '/../..' . '/docroot/core/includes/guzzle_php81_shim.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
-        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '92c8763cd6170fce6fcfe7e26b4e8c10' => __DIR__ . '/..' . '/symfony/phpunit-bridge/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -101,9 +102,11 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\DependencyInjection\\' => 38,
             'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
+            'Symfony\\Bridge\\PhpUnit\\' => 23,
             'Solarium\\' => 9,
             'SlevomatCodingStandard\\' => 23,
             'SelfUpdate\\' => 11,
@@ -122,6 +125,7 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'Prophecy\\PhpUnit\\' => 17,
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
             'PHPStan\\PhpDocParser\\' => 21,
@@ -203,6 +207,11 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
         ),
+        'B' => 
+        array (
+            'Behat\\Mink\\Driver\\' => 18,
+            'Behat\\Mink\\' => 11,
+        ),
         'A' => 
         array (
             'Asm89\\Stack\\' => 12,
@@ -213,8 +222,8 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'ZipStream\\' => 
         array (
@@ -360,6 +369,10 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
         ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
@@ -371,6 +384,10 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
+        ),
+        'Symfony\\Bridge\\PhpUnit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/phpunit-bridge',
         ),
         'Solarium\\' => 
         array (
@@ -420,6 +437,10 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Prophecy\\PhpUnit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpspec/prophecy-phpunit/src',
         ),
         'Prophecy\\' => 
         array (
@@ -583,10 +604,10 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
+            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
             1 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
             2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
-            3 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
+            3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
         ),
         'Dflydev\\DotAccessData\\' => 
         array (
@@ -636,6 +657,14 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
+        'Behat\\Mink\\Driver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
+        ),
+        'Behat\\Mink\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/behat/mink/src',
+        ),
         'Asm89\\Stack\\' => 
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
@@ -643,6 +672,13 @@ class ComposerStaticInit9133213d328e1e5fadaeb8de1b524e26
     );
 
     public static $prefixesPsr0 = array (
+        'W' => 
+        array (
+            'WebDriver' => 
+            array (
+                0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
+            ),
+        ),
         'T' => 
         array (
             'Twig_' => 
