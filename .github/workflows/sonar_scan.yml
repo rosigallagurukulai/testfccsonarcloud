@@ -20,9 +20,8 @@ jobs:
            -Dsonar.organization=rosigallagurukulai
            -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
            -Dsonar.sources=docroot
-           -Dsonar.test.inclusions=docroot/sites/**
-           -Dsonar.test.inclusions=docroot/themes/**
-           -Dsonar.exclusions=docroot/core/**
+           -Dsonar.test.inclusions=docroot/modules/**,docroot/sites/**,docroot/themes/**
+           -Dsonar.exclusions=docroot/core/**,docroot/vendor/**
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
