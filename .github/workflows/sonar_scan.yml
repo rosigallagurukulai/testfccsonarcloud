@@ -1,7 +1,7 @@
 name: Sonarcloud_scannig
 on:
   workflow_run:
-    workflows: ["PHP phpcs"]
+    workflows: ["phpunit test"]
     types:
       - completed
      
