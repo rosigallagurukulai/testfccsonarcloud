@@ -4,7 +4,7 @@ config:
   webroot: docroot
   acli_version: latest
   ah_application_uuid: 46d7c5ce-b9cb-488a-91cd-8af0b79bacbf
-  php: '7.4'
+  php: '8.0'
   cache: true
   type: memchached:1.6
   composer_version: '2'
