@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows: ["Sonarcloud_scannig"]
     types:
-      - completed
+      - Success
 
 jobs:
   zap_scan:
