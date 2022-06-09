@@ -20,5 +20,5 @@ jobs:
 
 
           http_login_form: '/app/login'
-          http_login_http_username: 'testuser'
+          http_login_http_username: 'admin'
           http_login_http_password: ${{ ZAP_SCAN_PW }}
