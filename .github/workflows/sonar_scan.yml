@@ -1,7 +1,7 @@
 name: Sonarcloud_scannig
 on:
   workflow_run:
-    workflows: ["phpunit test"]
+    workflows: ["PHP phpcs"]
     types:
       - completed
      
@@ -20,7 +20,7 @@ jobs:
            -Dsonar.organization=rosigallagurukulai
            -Dsonar.projectKey=rosigallagurukulai_testfccsonarcloud
            -Dsonar.sources=docroot
-           -Dsonar.inclusions=docroot/modules/**,docroot/sites/**,docroot/themes/**
+           -Dsonar.inclusions=docroot/sites/**
          
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
