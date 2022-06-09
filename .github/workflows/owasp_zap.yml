@@ -1,10 +1,4 @@
-name: OWASP ZAP Scan
-
-on: 
- workflow_run:
-    workflows: ["Sonarcloud_scannig"]
-    types:
-      - completed
+on: [push]
 
 jobs:
   zap_scan:
