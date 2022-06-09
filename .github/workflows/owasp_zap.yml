@@ -1,4 +1,9 @@
-on: [push]
+name: Owasp_Zap Scan
+on:
+  workflow_run:
+    workflows: ["Sonarcloud_scannig"]
+    types:
+      - completed
 
 jobs:
   zap_scan:
