@@ -249,7 +249,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'T6sFeSFTN5i5yxfKdrc76hSeTFhNYadrc3ISF9xsydWM6YTPaYMj3_c1KI3bPtkW7LZX8oockw';
 
 /**
  * Deployment identifier.
@@ -775,10 +775,20 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 // database in each site environment (Dev, Stage, or Prod). To use this
 // settings.php for development on your local workstation, set $db_url
 // (Drupal 5 or 6) or $databases (Drupal 7 or 8) as described in comments above.
-if (file_exists('/var/www/site-php')) {
-  require('/var/www/site-php/fccwebd9/fccwebd9-settings.inc');
-}
+#if (file_exists('/var/www/site-php')) {
+#  require('/var/www/site-php/fccwebd9/fccwebd9-settings.inc');
+#}
 
 $settings['config_sync_directory'] = '../config/fcc/default';
 
 ini_set('memory_limit', '512M');
+$databases['default']['default'] = array (
+  'database' => 'fcc',
+  'username' => 'fcc',
+  'password' => 'fcc',
+  'prefix' => '',
+  'host' => 'fcc',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
