@@ -1,11 +1,8 @@
 name: PHP phpcs
 
 on:
-  - push
   - pull_request
-
-#permissions:
-# contents: read
+  - push
 
 jobs:
   build:
