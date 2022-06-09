@@ -38,7 +38,7 @@ jobs:
             coverage: xdebug
             
     - name: Run tests with phpunit/phpunit
-      run: vendor/bin/phpunit docroot/sites/default
+      run: vendor/bin/phpunit -c docroot/core docroot/sites
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
