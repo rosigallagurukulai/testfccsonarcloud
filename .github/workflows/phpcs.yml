@@ -1,10 +1,8 @@
 name: PHP phpcs
 
 on:
-  push:
-    branches: [ master,feature ]
-  pull_request:
-    branches: [ master,feature ]
+  -pull_request
+  -push
 
 #permissions:
 # contents: read
