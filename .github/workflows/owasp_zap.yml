@@ -17,3 +17,8 @@ jobs:
           target: 'http://dev.dominosugar.com/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
+
+
+          http_login_form: '/app/login'
+          http_login_http_username: 'testuser'
+          http_login_http_password: ${{ ZAP_SCAN_PW }}
