@@ -14,16 +14,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-         ref: master
-
+          ref: master
       - name: ZAP Scan
-        uses: zaproxy/action-api-scan@v0.1.1
+        uses: zaproxy/action-full-scan@v0.4.0
         with:
-         target: 'https://www.zaproxy.org/'
-      #    token: ${{ secrets.GITHUB_TOKEN }}
-       #   docker_name: 'owasp/zap2docker-stable'
-       #   format: openapi
-      #    target: 'https://www.google.com'
-       #   rules_file_name: '.zap/rules.tsv'
-       #   cmd_options: '-a'
-    
+          token: ${{ secrets.GITHUB_TOKEN }}
+          docker_name: 'owasp/zap2docker-stable'
+          target: 'https://www.zaproxy.org/'
+          rules_file_name: '.zap/rules.tsv'
+          cmd_options: '-a'
