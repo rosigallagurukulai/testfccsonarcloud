@@ -19,6 +19,6 @@ jobs:
           cmd_options: '-a'
 
 
-          http_login_form: '/app/login'
+          http_login_form: '/user/login'
           http_login_http_username: 'admin'
           http_login_http_password: ${{ secrets.SECRETS_ZAP }}
