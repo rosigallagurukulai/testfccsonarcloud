@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows: ["PHP phpcs"]
     types:
-      - Success
+      - completed
      
 jobs:
   sonarcloud:
