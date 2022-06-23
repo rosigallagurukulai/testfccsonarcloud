@@ -3,8 +3,7 @@ FCC SETUP INSTRUCTIONS
 
 This file provides instructions for setting up the local containerized site using Lando for purposes of the FCC project.
 
-
-STEPS FOR INSTALLING LANDO
+INSTALLING LANDO
 -------------
 
 1. Downloading the appropriate release of Lando for your OS and Install: https://github.com/lando/lando/releases
