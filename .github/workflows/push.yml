@@ -5,7 +5,7 @@ on:
      types: 
          - closed
      branches: 
-         - develop
+         - master
 jobs:
   if_merged:
     if: github.event.pull_request.merged == true
