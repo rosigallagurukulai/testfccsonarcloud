@@ -19,7 +19,7 @@ jobs:
         sudo git --version
         sudo git config --global user.name "rosigallaguru"
         sudo git config --global user.email "rosigallaguru@gmail.com"
-        sudo git config -list
+        sudo git config --list
         sudo git remote -v
         
 
