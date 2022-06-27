@@ -16,7 +16,6 @@ jobs:
    
     - name: Install git
       run: |
-        sudo apt-get install -y git
         sudo git --version
         sudo touch f1
         sudo git add f1
