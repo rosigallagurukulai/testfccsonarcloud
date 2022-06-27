@@ -17,9 +17,6 @@ jobs:
     - name: Install git
       run: |
         sudo git --version
-        sudo touch f1
-        sudo git add f1
-        sudo git commit -m "f1"
         sudo git config --global user.name "rosigallaguru"
         sudo git config --global user.email "rosigallaguru@gmail.com"
         sudo git config -list
