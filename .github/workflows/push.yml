@@ -1,23 +1,29 @@
-name: push GitHub to Acquia Git
+ name: push GitHub to Acquia Git
 
 on:
   pull_request:
-     types: 
+     types:
          - closed
-     branches: 
+     branches:
          - master
-jobs:
+ jobs:
   if_merged:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
     - run: |
         echo The PR was merged
+   
+    
+   steps:
+    - name: Install git
+      run: |
+        apt-get install -y git
+        git --version
+        echo "Path is ... $PATH"
+        PATH=$PATH:$(which git)
+        echo "Path is ... $PATH"
         
-    - name: git status
-      run: sudo git status
-        
-
  
 
 
