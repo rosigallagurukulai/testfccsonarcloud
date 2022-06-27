@@ -18,9 +18,9 @@ jobs:
       run: |
         sudo apt-get install -y git
         sudo git --version
-        sudo echo "Path is ... $PATH"
-        sudo PATH=$PATH:$(which git)
-        sudo echo "Path is ... $PATH"
+        sudo touch f1
+        sudo git add f1
+        sudo git commit -m "f1"
         sudo git config --global user.name "rosigallaguru"
         sudo git config --global user.email "rosigallaguru@gmail.com"
         sudo git config -list
