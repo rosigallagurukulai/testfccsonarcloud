@@ -21,8 +21,11 @@ jobs:
         sudo echo "Path is ... $PATH"
         sudo PATH=$PATH:$(which git)
         sudo echo "Path is ... $PATH"
+        sudo git config --global user.name "rosigallaguru"
+        sudo git config --global user.email "rosigallaguru@gmail.com"
+        sudo git config -list
+        sudo git remote -v
         
- 
 
 
  
