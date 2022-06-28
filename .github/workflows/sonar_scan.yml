@@ -1,9 +1,10 @@
 name: Sonarcloud_scannig
 on:
-  workflow_run:
-    workflows: ["PHP phpcs"]
-    types:
-      - completed
+  - pull_request
+ # workflow_run:
+#    workflows: ["PHP phpcs"]
+#    types:
+ #     - completed
      
 jobs:
   sonarcloud:
