@@ -19,7 +19,7 @@
         "composer/semver": "*",
         "drupal/acquia_connector": "^3.0",
         "drupal/acquia_search": "^3.0",
-        "drupal/coder": "^8.3.13",
+        "drupal/coder": "8.3",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
@@ -34,7 +34,7 @@
         "drupal/shield": "^1.6",
         "drupal/slick_views": "^2.6",
         "drush/drush": "^11.0"
-       },
+    },
     
     
     "conflict": {
