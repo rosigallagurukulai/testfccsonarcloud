@@ -1,7 +1,8 @@
 name: PHP phpcs
 
 on:
-  - pull_request
+   - push
+#  - pull_request
 
 jobs:
   build:
@@ -51,8 +52,8 @@ jobs:
         ./vendor/bin/phpcs --config-set ignore_errors_on_exit 1
         ./vendor/bin/phpcs --config-set ignore_warnings_on_exit 1
         
-    - name: Run lint
-      run: composer lint
+#    - name: Run lint
+ #     run: composer lint
       
     - name: Run phpcs
       run: ./vendor/bin/phpcs --standard=PSR12 docroot/themes/contrib/bootstrap_barrio/theme-settings.php
