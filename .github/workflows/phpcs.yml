@@ -33,6 +33,8 @@ jobs:
       run: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
     - name: Install phpcbf
       run: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
+    - name: install drupal standards
+      run:  composer global require drupal/coder
       
     - name: Then test the downloaded phpcs.phar
       run: |
