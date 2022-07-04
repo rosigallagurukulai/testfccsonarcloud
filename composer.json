@@ -33,10 +33,9 @@
         "drupal/recaptcha": "^3.0",
         "drupal/shield": "^1.6",
         "drupal/slick_views": "^2.6",
+        "drupal/coder": "^8.3",
         "drush/drush": "^11.0"
-       
-    
-    },
+       },
     
     
     "conflict": {
