@@ -14,7 +14,7 @@ jobs:
       - name: Validate composer.json and composer.lock
         run: composer validate
       - name: Install composer dependencies
-        run: composer update --no-check-all
+        run: composer update 
       - uses: actions/setup-node@v1
         with:
           node-version: "14"
