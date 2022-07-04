@@ -36,7 +36,7 @@ jobs:
     - name: install drupal standards
       run: |
            composer global require drupal/coder:8.3.x
-           ./vendor/binphpcs -i 
+           ./vendor/bin/phpcs -i 
       
     - name: Then test the downloaded phpcs.phar
       run: |
