@@ -60,9 +60,9 @@ jobs:
  #     run: composer lint
       
     - name: Run phpcs
-      run: ./vendor/bin/phpcs --standard=PSR12 docroot/themes/contrib/bootstrap_barrio/theme-settings.php
+      run: ./vendor/bin/phpcs --standard=DrupalPractice docroot/themes/contrib/bootstrap_barrio/theme-settings.php
       
     - name: Run phpcbf
-      run: ./vendor/bin/phpcbf -w --standard=PSR12 docroot/themes --error-severity=0
+      run: ./vendor/bin/phpcbf -w --standard=DrupalPractice docroot/themes --error-severity=0
 
  
